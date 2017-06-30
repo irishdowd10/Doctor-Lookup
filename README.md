@@ -25,7 +25,7 @@ To download and run this project:
 
 ## Support and contact details
 
-If you have any issues or have questions, ideas, concerns, or contributions please contact the contributor through Github.
+If you have any issues or have questions, ideas, concerns, or contributions please contact the contributor through Github.  Thanks!!
 
 ## Technologies Used
 

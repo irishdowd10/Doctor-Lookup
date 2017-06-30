@@ -6,7 +6,10 @@ var displayDoctors = function(doctors, error) {
     var curDoctor = doctors.data[x];
     $('.show-doctors').show().append('<div class="panel"><h3>Name: ' +
       curDoctor.profile.first_name + ' ' + curDoctor.profile.last_name +
-      '</h3><p>Bio:  ' +
+      '</h3><h5>Gender: ' +
+        curDoctor.profile.gender +
+
+        '<p>Bio:  ' +
       curDoctor.profile.bio);
 
   }
