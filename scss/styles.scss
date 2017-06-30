@@ -1,0 +1,43 @@
+@import "vendors/main";
+@import "abstracts/main";
+@import "base/main";
+@import "components/main";
+@import "layout/main";
+@import "pages/main";
+@import "themes/main";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #5C80BC; }
+
+.panel {
+  border: 2px solid black;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #E3F2FD; }
+
+.show-doctors {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-bottom: 5px solid black; }
+
+body {
+  background-color: #4D5061; }
